@@ -2,7 +2,7 @@
 
 git clone https://github.com/akheron/jansson.git -b master
 cd jansson/
-git checkout -b build v2.13.1
+git reset --hard v2.13.1
 
 INSTALL_DIR=$HOME/build/jansson
 
